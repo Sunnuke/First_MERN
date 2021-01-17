@@ -4,4 +4,4 @@ mongoose.connect("http://localhost:8000/persondb", {
     useUnifiedTopology: true,
 })
     .then(() => console.log("Config: Connection established to Database!"))
-    .catch(error => console("ERROR:", error));
+    .catch(error => console.log("ERROR:", error));
