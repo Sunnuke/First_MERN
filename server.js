@@ -10,4 +10,6 @@ app.use(express.urlencoded({extended: true}));
 
 require("./server/routes/person.routes")(app);
 
-app.listen(port, () => console.log(`Listening to port ${port}`));
+app.listen(port, () => { 
+    console.log(`Listening to port ${port}`)
+});

@@ -14,6 +14,6 @@ module.exports.createPerson = (request, response) => {
         firstName,
         lastName
     })
-    .then(person => response.json(person))
-    .catch(error => response.json(error));
+        .then(person => response.json(person))
+        .catch(error => response.json(error));
 }
