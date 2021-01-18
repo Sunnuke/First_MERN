@@ -18,11 +18,11 @@ export default () => {
 
     return(
         <form onSubmit={submitting} >
-            <label>First Name</label><br/>
-            <input type="text" onChange={ e => setFirstName(e.target.value) } />
+            <label>First Name</label>
+            <input type="text" onChange={ e => setFirstName(e.target.value) } /><br/>
 
-            <label>Last Name</label><br/>
-            <input type="text" onChange={ e => setLastName(e.target.value) } />
+            <label>Last Name</label>
+            <input type="text" onChange={ e => setLastName(e.target.value) } /><br/>
 
             <input type="submit" />
         </form>
