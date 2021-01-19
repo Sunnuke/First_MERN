@@ -8,6 +8,7 @@ function App() {
       <Router>
         <Main path="person/"/>
         <Detail path="person/:id" />
+        <Update path="person/:id/edit"/>
       </Router>
     </div>
   );
