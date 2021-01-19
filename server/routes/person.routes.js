@@ -8,7 +8,7 @@ module.exports = (app) => {
     app.get('/api/person', PersonController.getAllPeople);
     app.get('/api/person/:id', PersonController.getPerson);
 
-    app.put('/api/people/:id', PersonController.updatePerson);
+    app.put('/api/person/:id', PersonController.updatePerson);
 
-    app.delete('/api/people/:id', PersonController.deletePerson);
+    app.delete('/api/person/:id', PersonController.deletePerson);
 }
