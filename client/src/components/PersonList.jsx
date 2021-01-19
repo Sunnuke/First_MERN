@@ -13,7 +13,7 @@ export default props => {
         <div>
             {props.people.map((person, idx) => {
                 return <p key={idx}>
-                    <Link to={"/" + person._id}>
+                    <Link to={"/person/" + person._id}>
                         {person.lastName}, {person.firstName}
                     </Link>
                     |

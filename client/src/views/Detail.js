@@ -11,7 +11,7 @@ export default props => {
         <div>
             <p>First Name: {person.firstName}</p>
             <p>Last Name: {person.lastName}</p>
-            <Link to={"/" + person._id + "/edit"}>
+            <Link to={"/person/" + person._id + "/edit"}>
                 Edit
             </Link>
         </div>
