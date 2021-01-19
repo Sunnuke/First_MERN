@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Main path="people/"/>
-        <Detail path="people/:id" />
+        <Main path="person/"/>
+        <Detail path="person/:id" />
       </Router>
     </div>
   );
